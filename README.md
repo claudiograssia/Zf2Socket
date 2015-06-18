@@ -15,8 +15,8 @@ The first step after installation, write into **config/application.config.php**
 ```php
 return array(
     'modules' => array(
-        "Application",
         "Zf2Socket",
+        "Application",
         "etc"
     )
 )
