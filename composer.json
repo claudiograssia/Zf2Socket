@@ -1,0 +1,11 @@
+{
+  "name": "claudiograssia/zf2socket",
+  "description": "Socket server for zend 2",
+  "keywords" : [
+    "library",
+    "zf2",
+    "zend",
+    "socket",
+    "server"
+  ]
+}
