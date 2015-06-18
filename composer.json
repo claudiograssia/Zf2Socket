@@ -1,11 +1,25 @@
 {
   "name": "claudiograssia/zf2socket",
   "description": "Socket server for zend 2",
+  "type" : "library",
   "keywords" : [
     "library",
     "zf2",
     "zend",
     "socket",
     "server"
-  ]
+  ],
+  "license": "GPL 3",
+  "authors" :{
+    "name" : "claudio grassia",
+    "email": "claudiograssia0000@gmail.com"
+  },
+  "require" : {
+    "hoa\socket" : "2.15.*"
+  },
+  "autoload" :{
+    "psr-0" :{
+      "Zf2Socket\" : "src/"
+    }
+  }
 }
