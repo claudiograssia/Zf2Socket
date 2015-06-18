@@ -24,6 +24,7 @@ return array(
 
 ## Example Use
 will be use with zendframework 2
+and it can be start with console router
 
 ```php
 class IndexController extends AbstractActionController {
