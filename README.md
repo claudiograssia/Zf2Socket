@@ -11,7 +11,7 @@ with [Composer](http://getcompoer.org)
 }
 ```
 
-## Use
+## Example Use
 will be use with zendframework 2
 
 ```php
