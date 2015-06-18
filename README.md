@@ -6,7 +6,7 @@ with [Composer](http://getcompoer.org) and install dependecies hoa\socket.
 ```json
 {
     "require": {
-        "claudiograssia/zf2socket": "dev-master"
+        "claudiograssia/zf2socket": "0.0.1-dev"
     }
 }
 ```
