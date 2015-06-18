@@ -15,11 +15,11 @@
     "email": "claudiograssia0000@gmail.com"
   },
   "require" : {
-    "hoa\socket" : "2.15.*"
+    "hoa/socket" : "2.15.*"
   },
   "autoload" :{
     "psr-0" :{
-      "Zf2Socket\" : "src/"
+      "Zf2Socket\\" : "src/"
     }
   }
 }
