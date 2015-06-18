@@ -23,8 +23,29 @@ return array(
 ```
 
 ## Example Use
-will be use with zendframework 2
-and it can be start with console router
+will be use with zendframework 2.
+
+And it is be start with console router.
+Create a console become this example
+```php
+return array(
+    'console' => array(
+        'router' => array(
+            'routes' => array(
+                'indexer' => array(
+                    'options' => array(
+                        'route' => 'socket',
+                        'defaults' => array(
+                            'controller' => 'Application\Controller\Index',
+                            'action' => 'index'
+                        )
+                    )
+                )
+            ),
+        ),
+    )
+)
+````
 
 ```php
 class IndexController extends AbstractActionController {
@@ -54,6 +75,8 @@ class IndexController extends AbstractActionController {
     }
 }
 ```
+Start socket with command into terminal
+`myprojectzf2/public php index.php socket`
 
 and it will can be use with terminal 
 ```sh
