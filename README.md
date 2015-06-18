@@ -101,4 +101,9 @@ server_address = ('127.0.0.1', 4242)
 print >>sys.stderr, 'connecting to %s port %s' % server_address
 sock.connect(server_address)
 ```
+## License
+This library is a free project and it can be use for any project.
 
+Attention read also license dependencies this library.
+
+### THANX FOR READ THIS DOCUMENT
