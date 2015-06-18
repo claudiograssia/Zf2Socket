@@ -55,9 +55,13 @@ class IndexController extends AbstractActionController {
 }
 ```
 
-The Client Will can be an terminal with
-telnet 127.0.0.1
+and it will can be use with
+```sh
+$ telnet 127.0.0.1
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
 test
 test
-
+```
 
