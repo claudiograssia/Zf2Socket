@@ -5,9 +5,9 @@ namespace Zf2Socket
 class Module {
 
   public function getServiceConfig() {
-    return [
-      'SocketServer' => 'Zf2Socket\Service\Server'
-    ];
+        return [
+          'SocketServer' => 'Zf2Socket\Service\Server'
+        ];
   }
   
   public function getAutoloaderConfig() {
