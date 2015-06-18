@@ -10,10 +10,12 @@
     "server"
   ],
   "license": "GPL 3",
-  "authors" :{
-    "name" : "claudio grassia",
-    "email": "claudiograssia0000@gmail.com"
-  },
+  "authors" : [
+    {
+      "name" : "claudio grassia",
+      "email": "claudiograssia0000@gmail.com"
+    }
+  ],
   "require" : {
     "hoa/socket" : "2.15.*"
   },
