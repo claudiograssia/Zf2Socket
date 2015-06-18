@@ -1,7 +1,7 @@
 # Zf2Socket
 
 ## Installation
-with [Composer](http://getcompoer.org)
+with [Composer](http://getcompoer.org) and install dependecies hoa\socket.
 
 ```json
 {
@@ -9,6 +9,17 @@ with [Composer](http://getcompoer.org)
         "claudiograssia/zf2socket": "dev-master"
     }
 }
+```
+
+The first step after installation, write into **config/application.config.php**
+```php
+return array(
+    'modules' => array(
+        "Application",
+        "Zf2Socket",
+        "etc"
+    )
+)
 ```
 
 ## Example Use
