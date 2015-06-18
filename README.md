@@ -55,7 +55,7 @@ class IndexController extends AbstractActionController {
 }
 ```
 
-and it will can be use with
+and it will can be use with terminal 
 ```sh
 $ telnet 127.0.0.1
 Trying 127.0.0.1...
@@ -63,5 +63,19 @@ Connected to localhost.
 Escape character is '^]'.
 test
 test
+```
+
+or it will can be use with python
+```py
+import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# Connect the socket to the port where the server is listening
+server_address = ('127.0.0.1', 4242)
+print >>sys.stderr, 'connecting to %s port %s' % server_address
+sock.connect(server_address)
 ```
 
