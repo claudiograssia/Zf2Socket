@@ -7,7 +7,7 @@ class Module {
   public function getServiceConfig() {
     return [
       'SocketServer' => 'Zf2Socket\Service\Server'
-    ]
+    ];
   }
 
 }
