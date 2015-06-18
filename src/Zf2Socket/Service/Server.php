@@ -25,7 +25,5 @@ class Server implements FactoryInterface {
               $clouse->__invoke($server); 
           }
      }
-     
   }
-  
 }
