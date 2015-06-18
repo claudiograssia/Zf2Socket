@@ -55,4 +55,9 @@ class IndexController extends AbstractActionController {
 }
 ```
 
+The Client Will can be an terminal with
+telnet 127.0.0.1
+test
+test
+
 
