@@ -106,4 +106,4 @@ This library is a free project and it can be use for any project.
 
 Attention read also license dependencies this library.
 
-### THANX FOR READ THIS DOCUMENT
+### THANX FOR HAVE READ THIS DOCUMENT
