@@ -76,7 +76,7 @@ class IndexController extends AbstractActionController {
 }
 ```
 Start socket with command into terminal
-`myprojectzf2/public php index.php socket`
+## `myprojectzf2/public php index.php socket`
 
 and it will can be use with terminal 
 ```sh
