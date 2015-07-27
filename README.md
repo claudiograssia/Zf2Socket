@@ -32,6 +32,9 @@ will be use with zendframework 2.
 
 And it is be start with console router.
 Create a console become this example
+```files
+module.config.php
+```
 ```php
 return array(
     'console' => array(
