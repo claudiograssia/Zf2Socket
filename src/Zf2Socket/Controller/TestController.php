@@ -20,5 +20,12 @@ class TestController extends AbstractActionController {
               $server->writeLine(strtoupper($line));
           });
     }
+    
+    /**
+     * @return \Zf2Socket\Service\Server
+     */
+    protected function getServerService() {
+        return $this->getServiceLocator()->get('SocketServer');
+    }
 
 }
