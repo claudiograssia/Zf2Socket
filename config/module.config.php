@@ -1,20 +1,20 @@
 <?php 
 return [
-  'console' => array(
-        'router' => array(
-            'routes' => array(
-                'indexer' => array(
-                    'options' => array(
+  'console' => [
+        'router' => [
+            'routes' => [
+                'indexer' => [
+                    'options' => [
                         'route' => 'socket test',
-                        'defaults' => array(
+                        'defaults' => [
                             'controller' => 'Zf2SocketTestController',
                             'action' => 'index'
-                        )
-                    )
-                )
-            ),
-        ),
-  )
+                        ]
+                    ]
+                ]
+            ],
+        ],
+  ],
   'controllers' => [
     'invokables' => [
       'Zf2SocketTestController' => 'Zf2Socket\Controller\TestController'
