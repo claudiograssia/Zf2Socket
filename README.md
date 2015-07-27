@@ -22,6 +22,11 @@ return array(
 )
 ```
 
+start test socket into terminal with this command
+## `myprojectzf2/public php index.php socket test`
+
+or use
+
 ## Example Use
 will be use with zendframework 2.
 
@@ -77,9 +82,6 @@ class IndexController extends AbstractActionController {
 ```
 Start socket with command into terminal
 ## `myprojectzf2/public php index.php socket`
-or
-## `myprojectzf2/public php index.php socket test`
-for a test controller
 
 and it will can be use with terminal 
 ```sh
