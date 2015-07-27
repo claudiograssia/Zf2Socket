@@ -5,7 +5,7 @@ return [
             'routes' => array(
                 'indexer' => array(
                     'options' => array(
-                        'route' => 'socket',
+                        'route' => 'socket test',
                         'defaults' => array(
                             'controller' => 'Zf2SocketTestController',
                             'action' => 'index'
