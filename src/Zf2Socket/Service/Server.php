@@ -22,7 +22,7 @@ class Server implements FactoryInterface {
      
      while(true) {
           foreach ($server->select() as $node) {
-              $clouse->__invoke($server); 
+              $closure->__invoke($server); 
           }
      }
   }
